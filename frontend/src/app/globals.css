@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+.index-select::-webkit-scrollbar {
+  height: 4px;
+}
+
+.index-select::-webkit-scrollbar-thumb {
+  background: #ccc;
+  cursor: pointer;
+  border-radius: 10rem;
+}
+
+.index-select::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10rem;
+}
